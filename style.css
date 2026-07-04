@@ -28,6 +28,15 @@ main.work-content {
   margin-top: 2.5rem;
 }
 
+.other-projects-heading {
+  margin-top: 2.5rem;
+}
+
+.muted {
+  color: #888;
+  font-weight: normal;
+}
+
 body {
   background-color: #212121;
   color: #ECECF1;
