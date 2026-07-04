@@ -1,9 +1,16 @@
 /* This is the main stylesheet for the site. */
 
-/* Desktop */
-header {
-  padding-right: 20%;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+}
+
+/* Desktop */
 
 main {
   line-height: 1.6;
