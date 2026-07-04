@@ -11,7 +11,7 @@ main {
 }
 
 main.home-content {
-  color: #C9D1D9;
+  color: #ECECF1;
   font-size: 1rem;
   line-height: 1.85;
 }
@@ -29,15 +29,28 @@ main.work-content {
 }
 
 body {
-  background-color: #000;
-  color: #C9D1D9;
-  font-family: ui-monospace, SFMono-Regular, Consolas, Liberation Mono, Menlo, Palatino, monospace;
+  background-color: #212121;
+  color: #ECECF1;
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Consolas,
+    Liberation Mono,
+    Menlo,
+    Palatino,
+    monospace;
   font-size: 90%;
   font-weight: 500;
   margin-top: 5%;
   margin-left: 30%;
   margin-right: 30%;
   width: 40%;
+}
+
+body.sub-page {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 footer {
@@ -48,20 +61,20 @@ footer {
 }
 
 a:link {
-  color: #FF00FF;
+  color: #ff00ff;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:link,
 a:visited {
-  color: #A78BFA;
+  color: #a78bfa;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: #C084FC;
+  color: #c084fc;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -70,7 +83,8 @@ li:not(:last-child) {
   margin-bottom: 15px;
 }
 
-@media (max-width: 600px) { /* Mobile */
+@media (max-width: 600px) {
+  /* Mobile */
   main {
     width: 100%;
   }
