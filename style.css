@@ -105,10 +105,11 @@ li:not(:last-child) {
     width: 100%;
   }
 
-  body {
-    width: 60%;
+  body,
+  body.sub-page {
+    width: auto;
     margin-top: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
